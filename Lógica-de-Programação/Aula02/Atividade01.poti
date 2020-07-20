@@ -1,0 +1,6 @@
+var x := leia_texto
+var y := leia_inteiro
+var z := leia_numero
+escreva "Eu sou {x}"
+escreva "Tenho {y} anos"
+escreva "Minha altura é de {z}m"
