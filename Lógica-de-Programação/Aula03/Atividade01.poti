@@ -1,0 +1,7 @@
+var x := leia_inteiro
+se x mod 2 <> 0 então
+	x := x + 1
+    imprima x
+senão
+	imprima x
+fim

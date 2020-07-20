@@ -1,0 +1,8 @@
+var x := leia_inteiro
+se x < 100 então
+	x := x + 100
+	imprima x
+senão
+	x := x - 100
+    imprima x
+fim
