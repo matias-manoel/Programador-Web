@@ -1,0 +1,7 @@
+var r1 := leia_numero
+var r2 := leia_numero
+se r2 mod r1 == 0 então
+	imprima "São múltiplos"
+senão
+	imprima "Não são múltiplos"
+fim

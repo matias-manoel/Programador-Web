@@ -1,0 +1,6 @@
+var n := leia_numero
+se n > 0 então
+	imprima "Número Positivo"
+senãose n < 0 então
+	imprima "Número Negativo"
+fim

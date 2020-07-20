@@ -1,0 +1,5 @@
+var r1 := leia_numero
+var r2 := leia_numero
+var r3 := leia_numero
+var mp := (r1 * 4 + r2 * 5 + r3 * 6) / 15
+imprima mp
