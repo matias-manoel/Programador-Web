@@ -1,0 +1,9 @@
+var t := ""
+enquanto t <> 'acertadamente' |e| t <> 'sair' faça
+	t := leia_texto
+	se t == "acertadamente" então
+		escreva "Acesso concedido"
+    senãose t == "sair" então
+    	escreva "Programa encerrado"
+    fim
+fim
