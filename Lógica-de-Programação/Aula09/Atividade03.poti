@@ -1,0 +1,13 @@
+var n1 := leia_numero
+var n2 := leia_numero
+var media := 0.0
+enquanto n1 < 0.0 |ou| n1 > 10.0 faça
+	escreva "Nota com valor inválido!"
+    n1 := leia_numero
+fim
+enquanto n2 < 0.0 |ou| n2 > 10.0 faça
+	escreva "Nota com valor inválido!"
+    n2 := leia_numero
+fim
+media := (n1 + n2) / 2
+escreva media

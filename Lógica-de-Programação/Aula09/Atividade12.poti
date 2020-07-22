@@ -1,0 +1,6 @@
+var f := leia_inteiro
+imprima "Feliz Nat"
+para i de 1 até f faça
+	imprima "a"
+fim
+imprima "l!"
