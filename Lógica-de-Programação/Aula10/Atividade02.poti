@@ -1,0 +1,7 @@
+var n := leia_inteiro
+para i de 1 até n faça
+	para j de 1 até n - 1 faça
+    	imprima "* "
+    fim
+    escreva "*"
+fim

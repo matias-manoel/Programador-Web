@@ -1,0 +1,12 @@
+var n := leia_inteiro
+var i := 1
+var j := 1
+enquanto i <= n faça
+	enquanto j < i faça
+    	imprima "* "
+        j := j + 1
+    fim
+    escreva "*"
+    j := 1
+    i := i + 1
+fim
