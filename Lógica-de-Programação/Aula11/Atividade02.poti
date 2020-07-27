@@ -1,0 +1,13 @@
+var nome := vetor[4]
+var faltas := vetor[4]
+var media := vetor[4]
+para i de 0 até 3 faça
+	nome[i] := leia_texto
+    faltas[i] := leia_inteiro
+    media[i] := leia_numero
+fim
+escreva "Nome – Nº de Faltas – Média"
+para i de 0 até 3 faça
+	imprima "{nome[i]} – {faltas[i]} – {media[i]}"
+    escreva
+fim

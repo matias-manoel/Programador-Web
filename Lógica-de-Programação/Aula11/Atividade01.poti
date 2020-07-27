@@ -1,0 +1,20 @@
+var a1 := leia_texto
+var a2 := leia_texto
+var a3 := leia_texto
+var a4 := leia_texto
+var a5 := leia_texto
+var a6 := leia_texto
+var a7 := leia_texto
+var a8 := leia_texto
+var a9 := leia_texto
+var a10 := leia_texto
+escreva a1
+escreva a2
+escreva a3
+escreva a4
+escreva a5
+escreva a6
+escreva a7
+escreva a8
+escreva a9
+escreva a10
