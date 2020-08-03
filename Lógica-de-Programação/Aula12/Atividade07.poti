@@ -1,0 +1,23 @@
+var n := vetor[100]
+var num := 1
+var indice := -1
+enquanto num <> 0 faça
+	num := leia_inteiro
+    se num <> 0 então
+    	se indice < 100 então
+    		indice := indice + 1
+    		n[indice] := num
+        fim
+    fim
+fim
+para i de 0 até indice faça
+	imprima "{n[i]} "
+fim
+escreva
+para i de indice até 0 passo -1 faça
+	se n[i] < 0 então
+    	imprima "{n[i] * (-1)} "
+    senão
+    	imprima "{n[i]} "
+    fim
+fim

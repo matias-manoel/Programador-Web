@@ -4,8 +4,10 @@ var indice := -1
 enquanto num <> 0 faça
 	num := leia_inteiro
     se num <> 0 então
-    	indice := indice + 1
-    	n[indice] := num
+    	se indice < 100 então
+    		indice := indice + 1
+    		n[indice] := num
+        fim
     fim
 fim
 escreva "Conteúdo do vetor:"

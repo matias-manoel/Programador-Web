@@ -1,0 +1,20 @@
+var v := vetor[20]
+var soma := 0.0
+var media := 0.0
+para i de 0 até 19 faça
+	v[i] := leia_numero
+    soma := soma + v[i]
+fim
+media := soma / 20
+escreva media
+para i de 0 até 19 faça
+	se v[i] > media então
+    	imprima "{v[i]} "
+    fim
+fim
+escreva
+para i de 0 até 19 faça
+	se v[i] < media então
+    	imprima "{v[i]} "
+    fim
+fim

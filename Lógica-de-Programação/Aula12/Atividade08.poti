@@ -1,0 +1,17 @@
+var n := vetor[100]
+var num := 1
+var indice := -1
+enquanto num <> 0 faça
+	num := leia_inteiro
+    se num <> 0 então
+    	se indice < 100 então
+    		indice := indice + 1
+    		n[indice] := num
+        fim
+    fim
+fim
+para i de indice até 1 passo -1 faça
+	se n[i - 1] mod n[indice] == 0 então
+    	escreva "{n[i - 1]}"
+    fim
+fim
