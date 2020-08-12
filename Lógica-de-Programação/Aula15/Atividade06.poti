@@ -1,0 +1,4 @@
+produto(n1: inteiro, n2: inteiro)
+	var resultado := n1 * n2
+    retorne resultado
+fim
