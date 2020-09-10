@@ -2,7 +2,7 @@ var b1 := leia_inteiro
 var b2 := leia_inteiro
 var soma := b1 + b2
 escolha soma
-	caso 0 => imprima "0 - PROXYCITY"
+    caso 0 => imprima "0 - PROXYCITY"
     caso 1 => imprima "1 - P.Y.N.G."
     caso 2 => imprima "2 - DNSUEY!"
     caso 3 => imprima "3 - SERVERS"

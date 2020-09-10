@@ -1,8 +1,8 @@
 var ddd := leia_inteiro
 escolha ddd
-	caso 11 => imprima "{ddd}-São Paulo"
-	caso 21 => imprima "{ddd}-Rio de Janeiro"
-	caso 27 => imprima "{ddd}-Espírito Santo"
+    caso 11 => imprima "{ddd}-São Paulo"
+    caso 21 => imprima "{ddd}-Rio de Janeiro"
+    caso 27 => imprima "{ddd}-Espírito Santo"
     caso 31 => imprima "{ddd}-Minas Gerais"
     caso 41 => imprima "{ddd}-Paraná"
     caso 47 => imprima "{ddd}-Santa Catarina"
