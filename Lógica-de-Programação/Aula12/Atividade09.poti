@@ -5,12 +5,12 @@ para i de 0 até 99 faça
 fim
 para i de 0 até 99 faça
 	para j de 0 até 99 faça
-    	se v[i] < v[j] então
-        	auxiliar := v[i]
-            v[i] := v[j]
-            v[j] := auxiliar
-        fim
-    fim
+		se v[i] < v[j] então
+			auxiliar := v[i]
+			v[i] := v[j]
+			v[j] := auxiliar
+		fim
+	fim
 fim
 para i de 0 até 99 faça
 	escreva v[i]
