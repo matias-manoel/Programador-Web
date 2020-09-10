@@ -13,14 +13,14 @@ enquanto numero <> 0 faça
                 contadorSequencia := 1
                 numero := leia_inteiro
             fim
-            se (inicioSequencia + contadorSequencia) == numero então          
+            se (inicioSequencia + contadorSequencia) == numero então
                 contadorSequencia := contadorSequencia + 1
                 se contadorSequencia > maiorSequencia então
                     maiorSequencia := contadorSequencia
                     inicioMaiorSequencia :=  numero - (maiorSequencia - 1)
                 fim
                 numero := leia_inteiro
-            senão                
+            senão
                 controle2 := falso
             fim
         fim

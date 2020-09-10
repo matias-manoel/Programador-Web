@@ -1,8 +1,8 @@
 var n := leia_inteiro
 var k := n
 para i de 1 até n faça
-	para j de 1 até k - 1 faça
-    	imprima "* "
+    para j de 1 até k - 1 faça
+        imprima "* "
     fim
     escreva "*"
     k := k - 1

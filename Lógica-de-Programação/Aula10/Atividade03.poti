@@ -3,8 +3,8 @@ var w := leia_inteiro
 var i := 1
 var j := 1
 enquanto i <= z faça
-	enquanto j < w faça
-    	imprima "* "
+    enquanto j < w faça
+        imprima "* "
         j := j + 1
     fim
     escreva "*"

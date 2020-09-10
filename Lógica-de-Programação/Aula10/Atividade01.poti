@@ -3,22 +3,22 @@ var teste := 0
 var acumulador := 1
 var inicio := verdadeiro
 enquanto acumulador < 6 faça
-	n := leia_inteiro
-	se inicio == verdadeiro então
-    	teste := n
+    n := leia_inteiro
+    se inicio == verdadeiro então
+        teste := n
         inicio := falso
     senãose teste < n então
-    	se teste + 1 == n então
-    		acumulador := acumulador + 1
+        se teste + 1 == n então
+            acumulador := acumulador + 1
         senão
-        	acumulador := 1
+            acumulador := 1
         fim
     fim
     teste := n
     se acumulador == 6 então
-    	teste := teste - 5
+        teste := teste - 5
         para i de 1 até 6 faça
-        	escreva teste
+            escreva teste
             teste := teste + 1
         fim
     fim
