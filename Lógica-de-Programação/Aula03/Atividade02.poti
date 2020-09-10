@@ -4,5 +4,5 @@ se x < 100 então
 	imprima x
 senão
 	x := x - 100
-    imprima x
+	imprima x
 fim
