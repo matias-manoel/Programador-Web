@@ -11,7 +11,7 @@ enquanto cont <= n faça
         divisor := divisor + 1
     fim
     se contaDivisor == 2 então
-    	soma := soma + cont
+        soma := soma + cont
     fim
     contaDivisor := 0
     divisor := 1

@@ -2,13 +2,13 @@ var n := leia_inteiro
 var soma := 0
 var contaDivisor := 0
 para i de 2 até n faça
-	para j de 2 até i - 1 faça
-    	se i mod j == 0 então
-        	contaDivisor := contaDivisor + 1
+    para j de 2 até i - 1 faça
+        se i mod j == 0 então
+            contaDivisor := contaDivisor + 1
         fim
     fim
     se contaDivisor == 0 então
-    	soma := soma + i
+        soma := soma + i
     fim
     contaDivisor := 0
 fim

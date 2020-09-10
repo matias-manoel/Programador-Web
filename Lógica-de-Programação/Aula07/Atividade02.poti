@@ -2,8 +2,8 @@ var n := leia_numero
 var soma := 0
 var cont := 1
 enquanto cont <= n faça
-	se cont mod 2 == 0 então
-    	soma := soma + cont
+    se cont mod 2 == 0 então
+        soma := soma + cont
     fim
     cont := cont + 1
 fim

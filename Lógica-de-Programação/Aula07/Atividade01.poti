@@ -3,6 +3,6 @@ var soma := 0
 para i de 1 até n faça
 	se i mod 2 <> 0 então
 		soma := soma + i
-    fim
+	fim
 fim
 imprima soma
