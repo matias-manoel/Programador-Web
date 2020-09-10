@@ -1,16 +1,16 @@
 var m := matriz[5, 10]
 para i de 0 até 4 faça
 	para j de 0 até 9 faça
-    	m[i][j] := leia_inteiro
-    fim
+		m[i][j] := leia_inteiro
+	fim
 fim
 para i de 0 até 4 faça
 	para j de 0 até 9 faça
-    	se j <> 9 então
-        	imprima "{m[i][j]} "
-        senão
-        	imprima m[i][j]
-        fim
-    fim
-    escreva
+		se j <> 9 então
+			imprima "{m[i][j]} "
+		senão
+			imprima m[i][j]
+		fim
+	fim
+	escreva
 fim
