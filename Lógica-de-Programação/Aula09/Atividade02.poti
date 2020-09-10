@@ -1,8 +1,8 @@
 var n := leia_inteiro
 var maior := 0
 enquanto n <> 0 faça
-	se maior <= n então
-    	maior := n
+    se maior <= n então
+        maior := n
     fim
     n := leia_inteiro
 fim

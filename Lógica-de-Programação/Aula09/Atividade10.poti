@@ -4,13 +4,13 @@ var b := 1
 var soma := 0
 para i de 1 até n - 2 faça
 	se n < 46 então
-    	se i == 1 então
-        	escreva a
-            escreva b
-        fim
+		se i == 1 então
+			escreva a
+			escreva b
+		fim
 		soma := a + b
-    	escreva soma
-    	a := b
-    	b := soma
-    fim
+		escreva soma
+		a := b
+		b := soma
+	fim
 fim

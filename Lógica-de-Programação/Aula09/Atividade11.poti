@@ -3,15 +3,15 @@ var n2 := leia_inteiro
 var soma := 0
 var acumulador := 0
 se n1 mod 2 == 0 então
-	acumulador := n2 + 1
+    acumulador := n2 + 1
     para i de 0 até n1 - 1 faça
-    	soma := soma + acumulador
+        soma := soma + acumulador
         acumulador := acumulador + 2
     fim
 senão
-	acumulador := n2
+    acumulador := n2
     para i de 0 até n1 - 1 faça
-    	soma := soma + acumulador
+        soma := soma + acumulador
         acumulador := acumulador + 2
     fim
 fim

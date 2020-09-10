@@ -3,7 +3,7 @@ var contaDivisor := 0
 var cont := 1
 var divisor := 1
 enquanto cont <= n faça
-	contaDivisor := 0
+    contaDivisor := 0
     enquanto divisor <= cont faça
         se cont mod divisor == 0 então
             contaDivisor := contaDivisor + 1
@@ -14,7 +14,7 @@ enquanto cont <= n faça
     cont := cont + 1
 fim
 se contaDivisor == 2 então
-	imprima "número é primo"
+    imprima "número é primo"
 senão
-	imprima "número não é primo"
+    imprima "número não é primo"
 fim
