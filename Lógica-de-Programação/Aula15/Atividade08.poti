@@ -1,15 +1,15 @@
 funcaoMaior(n1: inteiro, n2: inteiro, n3: inteiro)
 	se n1 > n2 |e| n1 > n3 então
-    	retorne n1
-    senão
-    	se n2 > n1 |e| n2 > n3 então
-        	retorne n2
-        senão
-        	se n3 > n1 |e| n3 > n2 então
-            	retorne n3
-            senão
-            	retorne 0
-            fim
-        fim
-    fim
+		retorne n1
+	senão
+		se n2 > n1 |e| n2 > n3 então
+			retorne n2
+		senão
+			se n3 > n1 |e| n3 > n2 então
+				retorne n3
+			senão
+				retorne 0
+			fim
+		fim
+	fim
 fim

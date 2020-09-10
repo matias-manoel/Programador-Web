@@ -1,11 +1,11 @@
 fatorial(n1: inteiro, n2: inteiro)
-	var fat := 1
+    var fat := 1
     para i de 2 até n2 faça
-    	fat := fat * i
+        fat := fat * i
     fim
     se fat == n1 então
-    	retorne "s"
+        retorne "s"
     senão
-    	retorne "n"
+        retorne "n"
     fim
 fim

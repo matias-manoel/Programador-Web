@@ -1,7 +1,7 @@
 ehPar(n: numero)
 	se n mod 2 == 0 então
-    	retorne "par"
-    senão
-    	retorne "ímpar"
-    fim
+		retorne "par"
+	senão
+		retorne "ímpar"
+	fim
 fim

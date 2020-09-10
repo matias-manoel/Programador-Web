@@ -8,78 +8,78 @@ var proximoPar := 0
 var proximoCentral := 0
 enquanto entrada <> -1 faça
 	entrada := leia_inteiro
-    se entrada <> -1 então
-        se entrada mod 2 <> 0 então
-        	se contaColunaImpar < 10 então
-        		m[proximoImpar][0] := entrada
-        		proximoImpar := proximoImpar + 1
-        		contaColunaImpar := contaColunaImpar + 1
-        	senão
-        		se contaColunaCentral < 10 então
-        			m[proximoCentral][1] := m[0][0]
-        			proximoCentral := proximoCentral + 1
-        			contaColunaCentral := contaColunaCentral + 1
-        		senão
-        			proximoCentral := 9
-        			para i de 0 até 8 faça
-        				m[i][1] := m[i + 1][1]
-        			fim
-        			m[proximoCentral][1] := m[0][0]
-        		fim
-        		proximoImpar := 9
-        		para i de 0 até 8 faça
-        			m[i][0] := m[i + 1][0]
-        		fim
-        		m[proximoImpar][0] := entrada
-        	fim
-        senão
-        	se contaColunaPar < 10 então
-        		m[proximoPar][2] := entrada
-        		proximoPar := proximoPar + 1
-        		contaColunaPar := contaColunaPar + 1
-        	senão
-        		se contaColunaCentral < 10 então
-        			m[proximoCentral][1] := m[0][2]
-        			proximoCentral := proximoCentral + 1
-        			contaColunaCentral := contaColunaCentral + 1
-        		senão
-        			proximoCentral := 9
-        			para i de 0 até 8 faça
-        				m[i][1] := m[i + 1][1]
-        			fim
-        			m[proximoCentral][1] := m[0][2]
-        		fim
-        		proximoPar := 9
-        		para i de 0 até 8 faça
-        			m[i][2] := m[i + 1][2]
-        		fim
-        		m[proximoPar][2] := entrada
-        	fim
-        fim
-    fim
+	se entrada <> -1 então
+		se entrada mod 2 <> 0 então
+			se contaColunaImpar < 10 então
+				m[proximoImpar][0] := entrada
+				proximoImpar := proximoImpar + 1
+				contaColunaImpar := contaColunaImpar + 1
+			senão
+				se contaColunaCentral < 10 então
+					m[proximoCentral][1] := m[0][0]
+					proximoCentral := proximoCentral + 1
+					contaColunaCentral := contaColunaCentral + 1
+				senão
+					proximoCentral := 9
+					para i de 0 até 8 faça
+						m[i][1] := m[i + 1][1]
+					fim
+					m[proximoCentral][1] := m[0][0]
+				fim
+				proximoImpar := 9
+				para i de 0 até 8 faça
+					m[i][0] := m[i + 1][0]
+				fim
+				m[proximoImpar][0] := entrada
+			fim
+		senão
+			se contaColunaPar < 10 então
+				m[proximoPar][2] := entrada
+				proximoPar := proximoPar + 1
+				contaColunaPar := contaColunaPar + 1
+			senão
+				se contaColunaCentral < 10 então
+					m[proximoCentral][1] := m[0][2]
+					proximoCentral := proximoCentral + 1
+					contaColunaCentral := contaColunaCentral + 1
+				senão
+					proximoCentral := 9
+					para i de 0 até 8 faça
+						m[i][1] := m[i + 1][1]
+					fim
+					m[proximoCentral][1] := m[0][2]
+				fim
+				proximoPar := 9
+				para i de 0 até 8 faça
+					m[i][2] := m[i + 1][2]
+				fim
+				m[proximoPar][2] := entrada
+			fim
+		fim
+	fim
 fim
 se contaColunaImpar < 10 então
 	para i de contaColunaImpar até 9 faça
-    	m[i][0] := 0
-    fim
+		m[i][0] := 0
+	fim
 fim
 se contaColunaCentral < 10 então
 	para i de contaColunaCentral até 9 faça
-    	m[i][1] := 0
-    fim
+		m[i][1] := 0
+	fim
 fim
 se contaColunaPar < 10 então
 	para i de contaColunaPar até 9 faça
-    	m[i][2] := 0
-    fim
+		m[i][2] := 0
+	fim
 fim
 para i de 0 até 9 faça
 	para j de 0 até 2 faça
-    	se j <> 2 então
-        	imprima "{m[i][j]} "
-        senão
-        	imprima m[i][j]
-        fim
-    fim
-    escreva
+		se j <> 2 então
+			imprima "{m[i][j]} "
+		senão
+			imprima m[i][j]
+		fim
+	fim
+	escreva
 fim

@@ -4,14 +4,14 @@ ehPrimo(n: numero)
 	var divisor := 1
 	enquanto cont <= n faça
 		contaDivisor := 0
-    	enquanto divisor <= cont faça
-        	se cont mod divisor == 0 então
-            	contaDivisor := contaDivisor + 1
-        	fim
-        	divisor := divisor + 1
-    	fim
-    	divisor := 1
-    	cont := cont + 1
+		enquanto divisor <= cont faça
+			se cont mod divisor == 0 então
+				contaDivisor := contaDivisor + 1
+			fim
+			divisor := divisor + 1
+		fim
+		divisor := 1
+		cont := cont + 1
 	fim
 	se contaDivisor == 2 então
 		retorne verdadeiro

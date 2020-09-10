@@ -4,32 +4,32 @@ var indiceLinha := 0
 var indiceColuna := 0
 para i de 0 até 9 faça
 	para j de 0 até 9 faça
-    	m[i][j] := leia_inteiro
-    	se i == 0 |e| j == 0 então
-    		maiorValor := m[i][j]
-        	indiceLinha := i
-            indiceColuna := j
-    	senãose m[i][j] > maiorValor então
-    		maiorValor := m[i][j]
-        	indiceLinha := i
-            indiceColuna := j
-    	fim
-    fim
+		m[i][j] := leia_inteiro
+		se i == 0 |e| j == 0 então
+			maiorValor := m[i][j]
+			indiceLinha := i
+			indiceColuna := j
+		senãose m[i][j] > maiorValor então
+			maiorValor := m[i][j]
+			indiceLinha := i
+			indiceColuna := j
+		fim
+	fim
 fim
 escreva "Maior valor encontrado: {maiorValor}"
 imprima "Elementos da coluna: "
 para i de 0 até 9 faça
 	se i <> 9 então
-    	imprima "{m[i][indiceColuna]} "
-    senão
-    	escreva m[i][indiceColuna]
-    fim
+		imprima "{m[i][indiceColuna]} "
+	senão
+		escreva m[i][indiceColuna]
+	fim
 fim
 imprima "Elementos da linha: "
 para i de 0 até 9 faça
 	se i <> 9 então
-    	imprima "{m[indiceLinha][i]} "
-    senão
-    	escreva m[indiceLinha][i]
-    fim
+		imprima "{m[indiceLinha][i]} "
+	senão
+		escreva m[indiceLinha][i]
+	fim
 fim
